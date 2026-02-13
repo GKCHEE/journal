@@ -107,13 +107,7 @@ const AuthScreen = ({ onLogin }: { onLogin: (user: any) => void }) => {
         <h1 className="text-2xl font-bold text-center text-slate-900 mb-1">Welcome to Studio</h1>
         <p className="text-slate-500 text-center mb-10 text-sm">Elevated management for your digital life.</p>
         
-        /*<button 
-          onClick={handleGoogleLogin}
-          className="w-full flex items-center justify-center gap-3 py-3 border border-gray-200 rounded-xl hover:bg-gray-50 transition-all font-medium text-slate-700 mb-6 active:scale-[0.98]"
-        >
-          <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/layout/google.svg" className="w-5 h-5" alt="Google" />
-          Sign in with Google
-        </button>*/
+        
 
         <div className="relative mb-8">
           <div className="absolute inset-0 flex items-center">
